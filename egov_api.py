@@ -25,9 +25,9 @@ def get_data():
         'query_id': str(myuuid),
         'pinfl': pinfl,
         'passSerialNumber': passSerialNumber,
-        'client_id': 'ucell',
-        'secret_client': 'dWNlbGxfbXJ6X3JlYWRlcl9lZ292XzIwMjE=',
-        'user_id': 'Test_User',
+        'client_id': '',
+        'secret_client': '=',
+        'user_id': '',
         'pd_allow': 'true'
     }
     jsonData = json.dumps(params)
